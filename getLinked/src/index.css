@@ -1,13 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: Montserrat;
+  src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
 
 * {
   /* outline: 1px solid red; */
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 

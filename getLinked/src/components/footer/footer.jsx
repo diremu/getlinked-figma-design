@@ -1,9 +1,9 @@
-import ig from '../../images/instagram.png'
-import x from '../../images/x.png'
-import facebook from '../../images/facebook.png'
-import linkedin from  '../../images/linkedin.png'
+import ig from '../../images/instagram.svg'
+import x from '../../images/x.svg'
+import facebook from '../../images/facebook.svg'
+import linkedin from  '../../images/linkedin.svg'
 import contact from '../../images/contact.png'
-import location from '../../images/location.png'
+import location from '../../images/location.svg'
 
 export default function Footer() {
     return (
