@@ -1,14 +1,15 @@
 import './App.css'
-import Navbar from './components/navbar/navbar'
-import Footer from './components/footer/footer';
+import Router from './router';
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
     <>
-    <div className=' bg-[#150e28] w-full min-h-[100vh] text-white'>
-      <Navbar />
-      <Footer />
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Router/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
