@@ -6,8 +6,8 @@ import { Sponsors } from "./pages/Sponsors";
 export default function Router() {
     return (
         <div className=" bg-[#150e28] w-full min-h-[100vh] text-white">
-            <Navbar />
-            <Sponsors />
+            {/* <Navbar /> */}
+            {/* <Sponsors /> */}
             <Footer />
         </div>
     )
