@@ -2,7 +2,7 @@ import rules from '../images/rules.png'
 
 const Rules = () => {
     return (
-        <div className='px-6 md:px-10 flex flex-col md:flex-row-reverse md:py-8'>
+        <div className='px-6 md:px-10 flex flex-col md:flex-row-reverse md:py-8 md:items-center'>
             <div className='py-4'>
                 <img src={rules} alt="rules" className='w-[40vw]' />
             </div>
