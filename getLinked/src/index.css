@@ -33,6 +33,10 @@
   background: linear-gradient(270deg, #903aff, #fe34b9)
 }
 
+.reading {
+  background: linear-gradient(290deg, #903aff, #d434fe);
+}
+
 h1, h2, h3{
   font-family: 'Clash Display';
 }

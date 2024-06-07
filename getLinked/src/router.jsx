@@ -2,7 +2,8 @@ import Footer from "./components/footer/footer";
 import Navbar from "./components/navbar/navbar";
 import Rules from "./pages/Rules";
 import { Sponsors } from "./pages/Sponsors";
-import Intro from './pages/Introduction.jsx'
+import Intro from './pages/Introduction.jsx';
+import Judge from "./pages/Judge.jsx";
 
 
 export default function Router() {
@@ -12,7 +13,8 @@ export default function Router() {
             {/* <Sponsors /> */}
             {/* <Footer /> */}
             {/* <Rules /> */}
-            <Intro />
+            {/* <Intro /> */}
+            <Judge />
         </div>
     )
 }
