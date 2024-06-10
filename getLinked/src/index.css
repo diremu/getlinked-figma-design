@@ -3,19 +3,27 @@
 @tailwind utilities;
 @font-face {
   font-family: Montserrat;
-  src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+  src: url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "Clash Display";
-  src: url('./fonts/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf');
+  src: url("./fonts/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf");
 }
-
+@font-face {
+  font-family: "Unica One";
+  src: url("./fonts/Unica_One/UnicaOne-Regular.ttf");
+}
+@font-face {
+  font-family: Italics;
+  src: url("./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+}
 * {
   /* outline: 1px solid red; */
 }
 
 :root {
-  font-family: Montserrat, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -30,13 +38,23 @@
 }
 
 .register {
-  background: linear-gradient(270deg, #903aff, #fe34b9)
+  background: linear-gradient(270deg, #903aff, #fe34b9);
 }
 
 .reading {
   background: linear-gradient(290deg, #903aff, #d434fe);
 }
 
-h1, h2, h3{
-  font-family: 'Clash Display';
+h1,
+h2,
+h3 {
+  font-family: "Clash Display";
+}
+
+.numbers {
+  font-family: "Unica One";
+}
+
+.italics {
+  font-family: Italics;
 }
